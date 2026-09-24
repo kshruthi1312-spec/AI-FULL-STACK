@@ -1,3 +1,46 @@
+DAY 2(PROMPT)
 ollama --version
 pip install ollama
 ollama pull llama3.2:3b
+ollama run llama3.2:3b
+(ctrl d to end convo)
+{code *filename* is the command to create file}
+python *filename*(answers content from the code)
+
+
+*/git commands/*
+git init                      -(create a new git repositiory)
+git remote add origin <Url>   -(connect local repo to GitHub rep)
+git status                    -(show current status of files)
+git add .                     -(stages all changes changes ti be commited)
+git commit -m "message"       -(saves your changes within a msg)
+git push                      -(uploads your commits to GitHub)
+git pull                      -(Downloads the latest changes from GitHub)
+
+
+process to connect local repository to git repository:
+git init
+git remote add origin "link"
+git remote -v   //if it is success 2 codes get displayed
+git branch -M main
+
+
+
+DAY 3
+cd ..(to get back to previous stage in location path)
+/*commands
+git init
+git config --global user.name"GIT HUB PROFILE NAME"
+git config --global user.email"gitemail"
+git remote add origin "link"
+git remote -v
+git status
+git add .(to add all files)
+git add "filename"(to add specific file)
+
+
+
+Day 4(Memory)
+ollama pull llama3.2:3b
+pip install ollama
+pip install streamlit

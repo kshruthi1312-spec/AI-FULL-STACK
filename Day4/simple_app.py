@@ -1,0 +1,15 @@
+import streamlit as st
+st.title("Welcome to my first app")
+st.write("Hello")
+name=st.text_input("Enter your name")
+if st.button("Submit") :
+    st.write("Hello",name)
+st.chat_input("Enter your question")
+st.text_input("Enter your message")
+st.checkbox("Check me out")
+st.radio("Choose one",["Option 1","Option 2"])
+st.snow()
+st.balloons()
+st.file_uploader("Upload a file")
+st.spinner("Loading...")
+st.secrets("DATABASE_PASSWORD")
