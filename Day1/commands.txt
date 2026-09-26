@@ -1,6 +1,6 @@
 DAY 2(PROMPT)
 ollama --version
-pip install ollama
+py -m pip install ollama
 ollama pull llama3.2:3b
 ollama run llama3.2:3b
 (ctrl d to end convo)
@@ -41,6 +41,11 @@ git add "filename"(to add specific file)
 
 
 Day 4(Memory)
-ollama pull llama3.2:3b
-pip install ollama
-pip install streamlit
+py -m pip install streamlit
+streamlit run file.py
+{STREAMLIT:Open source python framework}
+st.chat_input()
+st.text_input()
+st.selectbox()
+st.button()
+st.file_uploader()
