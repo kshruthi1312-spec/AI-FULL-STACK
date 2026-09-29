@@ -1,6 +1,6 @@
 import ollama
 while True:
-    question= input("Enter your question: ")
+    question= input("Enter your question?: ")
     if question.lower()=="exit":
         break
     response=ollama.chat(
@@ -8,7 +8,7 @@ while True:
     messages=[
         {
             "role": "system",
-            "content": "Give the answers in 2  lines "
+            "content": "Give the answers in 2-3  lines "
         },
         {
             "role": "user",
