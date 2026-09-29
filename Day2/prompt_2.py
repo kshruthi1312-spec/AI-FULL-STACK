@@ -4,7 +4,7 @@ response=ollama.chat(
     messages=[
         {
             "role": "user",
-            "content": "Define ai in 2lines and tell me about 3 main types of ai in bulleted points"
+            "content": "Define ai and cybersecurity in 2 lines and tell me about 3 main types of ai in bulleted points"
         }
     ]
 )
