@@ -1,12 +1,12 @@
 import streamlit as st
 st.title("Welcome to my first app")
-st.write("Hello")
+st.write("Helloooo....")
 name=st.text_input("Enter your name")
 if st.button("Submit") :
     st.write("Hello",name)
 st.chat_input("Enter email")
 st.text_input("Enter your message")
-st.checkbox("Check me out")
+st.checkbox("Check me outt")
 st.radio("Choose one",["Option 1","Option 2"])
 st.snow()
 st.balloons()

@@ -4,7 +4,7 @@ msgs=[{
     "content":"You are a poet.give answer in 2-3 lines."
 }]
 while True:
-    question= input("Enter your question: ")
+    question= input("Enter your question....: ")
     if question.lower()=="exit":
         break
     msgs.append(
